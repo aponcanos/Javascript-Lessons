@@ -18,3 +18,4 @@ console.log("Hello World")
 - Giriş
 - Gelişme 
 - Sonuç
+- Neden mi?
