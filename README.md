@@ -1045,7 +1045,8 @@ const addItem = (userName,score)=>
 
 ```
 
+### DİZİLER 
 
 
-
+let items = 
 
