@@ -1047,6 +1047,46 @@ const addItem = (userName,score)=>
 
 ### DİZİLER 
 
+``` javascript
+let domain="kodluyoruz"
+let isActive = false
+let items = [1,2,3,isActive,domain]
+console.log(items)
 
-let items = 
+```
 
+#### Boş Array Oluşturma
+```javascript
+let emptyArray = []
+```
+
+
+
+#### Array boyutunu öğrenme
+
+```javascript
+items.length
+```
+
+
+#### Array ilk elemanı 
+```javascript
+items[0]
+```
+
+
+#### Değişkenin türünü görmek 
+```javascript
+Array.isArray(items)
+```
+
+
+#### Dizi içinde farklı diziler oluşturma
+```javascript
+let arr1 = [1,2,"bir string ifade",false,{title:"kodluyoruz"}];
+
+let arr2 = [1,2,3,["dört","beş","altı"],7,8];
+console.log(arr2[3][1]); // 5 Sonucunu verir.
+
+document.querySelector("#info").innerHTML = items.length
+```
